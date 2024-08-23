@@ -1,0 +1,26 @@
+name: cardbet_royle
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6 # For state management (optional, but useful)
+  provider: ^6.1.2        # For dependency injection (optional)
+  lottie: ^2.2.0          # For using Lottie animations
+  shared_preferences: ^2.0.18
+  cupertino_icons: ^1.0.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  assets:
+    - assets/images/
+    - assets/images/newback1.jpg
+  fonts:
+    - family: Neomuris
+      fonts:
+        - asset: assets/fonts/Neomuris-Regular.ttf
